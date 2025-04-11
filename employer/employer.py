@@ -1,4 +1,4 @@
-from employer.data import information_employer
+# from employer.data import information_employer
 
 print("Entrez les informations suivantes :")
 
@@ -40,26 +40,26 @@ def get_employee_info():
 
 
 # Fonction pour ajouter un employé à la liste
-def add_employee_to_list(employee_info):
-    name, age, position, salary = employee_info
-    new_employee = {
-        "name": name,
-        "age": age,
-        "position": position,
-        "salary": salary
-    }
-    information_employer.append(new_employee)
-    print(f"✅ Employé {name} ajouté à la liste !")
+# def add_employee_to_list(employee_info):
+#     name, age, position, salary = employee_info
+#     new_employee = {
+#         "name": name,
+#         "age": age,
+#         "position": position,
+#         "salary": salary
+#     }
+#     information_employer.append(new_employee)
+#     print(f"✅ Employé {name} ajouté à la liste !")
     
 
-# Fonction pour afficher la liste des employés
-def display_employee_list():
-    print("📋 Liste des employés :")
-    print("═" * 40)
-    for employee in information_employer:
-        print(f"👤 Nom      : {employee['name']}")
-        print(f"🎂 Âge      : {employee['age']} ans")
-        print(f"💼 Poste    : {employee['position']}")
-        print(f"💰 Salaire  : {employee['salary']} €")
-        print("—" * 40)
-    print("═" * 40)
+# # Fonction pour afficher la liste des employés
+# def display_employee_list():
+#     print("📋 Liste des employés :")
+#     print("═" * 40)
+#     for employee in information_employer:
+#         print(f"👤 Nom      : {employee['name']}")
+#         print(f"🎂 Âge      : {employee['age']} ans")
+#         print(f"💼 Poste    : {employee['position']}")
+#         print(f"💰 Salaire  : {employee['salary']} €")
+#         print("—" * 40)
+#     print("═" * 40)
