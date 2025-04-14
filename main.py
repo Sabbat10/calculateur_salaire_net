@@ -26,7 +26,6 @@ while True:
         print(f"💰 Salaire brut mensuel : {employee_info[3]} €")
         print(f"💸 Salaire de contribution : {display_total_prelevement()} €")
 
-        display_total_prelevement()
         salaire_net = employee_info[3] - display_total_prelevement()
         print(f"💰 Salaire net mensuel : {salaire_net} €")
         

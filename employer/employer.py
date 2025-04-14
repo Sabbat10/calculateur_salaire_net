@@ -22,7 +22,7 @@ def get_employee_info():
             print(" Âge invalide, veuillez entrer un nombre entier.")
 
     # 🔹 Poste
-    position = input(" Poste de l'employé : ").strip()
+    poste = input(" Poste de l'employé : ").strip()
 
     # 🔹 Salaire (avec validation)
     while True:
@@ -36,7 +36,7 @@ def get_employee_info():
             print(" Salaire invalide, veuillez entrer un montant valide.")
 
     print(" Employé enregistré avec succès !\n")
-    return name, age, position, salary
+    return name, age, poste, salary
 
 
 # Fonction pour ajouter un employé à la liste

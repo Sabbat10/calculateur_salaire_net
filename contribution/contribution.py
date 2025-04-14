@@ -2,7 +2,7 @@ from contribution.data import list_contribution
 import os
 
 # Fonction pour afficher la liste des contributions
-def display_contribution_list():
+def display_contribution_list(return_text=True):
     print(" Liste des contributions :")
     print("═" * 40)
     contribution_lines = []
